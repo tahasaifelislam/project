@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Com.css">
+</head>
+<body>
+    <div id="sidenav">
+        <nav>
+            <ul>
+            <li><a href="projetkech.html">HOME</a></li>
+            <li><a href="#why">FEATURES</a></li>
+            <li><a href="#best">SERVICES</a></li>
+            <li><a href="#test">TETIMONIALS</a></li>
+            <li><a href="#meet">MEET US</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+            <li><a href="log.html">LOG OUT</a></li>
+        </ul>
+        </nav>
+    </div>
+    <div id="menubtn">
+        <img src="menu.png" id="menu">
+    </div>
+
+    <section id="home">
+        <div class="left">
+            <h1>Buy <span>The FUTURE</span></h1>
+            <p>Kech Design has been able to establish itself in the Marrakech interior design market through its careful attention to the needs of its clientele. With a keen expertise in interior decoration and the layout of any private residence (house, villa, riad, apartment), and for any room you wish to enhance (modern kitchen, living room, bathroom, storage and dressing, bedroom), the agency can only boast of its achievements, which represent challenges to be realized for the pleasure of its clients. By blending contemporary inspirations with Moroccan peculiarities, our company, with the professionalism of its perfectionist team, completes its work to a remarkable quality for a competitive price.</p>
+            <a href="#">BUY NOW</a>
+        </div>
+        <div class="right">
+            <img src="bed.jpg">
+        </div>
+    </section>
+<!---->
+
+    <section id="start">
+        <h1 class="section_title">Our showroom</h1>
+        <div class="images">
+            <ul>
+                <li class="sr">
+                   <div><img src="p2.webp"></div>
+                   <span>MODERN DOOR (gris edition)</span>
+                   <span class="prix">2500dh</span>
+                   <a href="#">BUY NOWT</a>
+                </li>
+                <li class="sr">
+                    <div> <img src="porte.jpg"></div>
+                    <span>MODERN DOOR</span>
+                    <span class="price">2500dh</span>
+                    <a href="#">BUY NOW</a>
+                 </li>
+                 <li class="sr">
+                    <div> <img src="BEDD.webp"></div>
+                    <span>THE PEACE BED</span>
+                    <span class="price">2750dh</span>
+                    <a href="#">BUY NOW</a>
+                 </li>
+                 <li class="sr">
+                    <div> <img src="cui.webp"></div>
+                    <span>MODERN CUISINE</span>
+                    <span class="price">2500dh</span>
+                    <a href="#">BUY NOW</a>
+                 </li>
+                 <li class="sr">
+                    <div> <img src="PHO.jpg"></div>
+                    <span>PHONE CONSULTAATION OR OTHER WISHES </span>
+                    <span class="price">350dh</span>
+                    <a href="#">BUY NOW</a>
+                 </li>
+                 <li class="sr">
+                    <div> <img src="MOV.avif"></div>
+                    <span>STAFF CHECK </span>
+                    <span class="price">850DH</span>
+                    <a href="#">BUY NOW</a>
+                 </li>
+            </ul>
+        </div>
+    </section>
+    <script>
+        var menubtn=document.getElementById("menubtn")
+        var sidenav=document.getElementById("sidenav")
+        var menu=document.getElementById("menu")
+        sidenav.style.right = "-250px"
+        menubtn.onclick = function(){
+            if(sidenav.style.right == "-250px"){
+                sidenav.style.right = 0;
+            }
+            else{
+                sidenav.style.right="-250px";
+            }
+        }
+    </script>
+</body>
+</html>
